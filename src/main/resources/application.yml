@@ -1,3 +1,8 @@
+project:    
+    context-path: /test
+
+server:
+    port: 8080
 
 spring:
     db1:
@@ -52,5 +57,11 @@ spring:
         ansi:
             enabled: always
 
-server:
-    port: 8080
+mybatis:
+    mapper-locations: mapper/*Mapper.xml
+    configuration:
+        default-statement-timeout: 300
+        map-underscore-to-camel-case: true
+        jdbc-type-for-null: null
+        call-setters-on-nulls: true    
+    type-aliases-package: com.example.dynamicroutingdatasource
