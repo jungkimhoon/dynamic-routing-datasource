@@ -24,7 +24,7 @@ import java.util.*;
  */
 @Configuration
 @RequiredArgsConstructor
-@MapperScan("inno.mapper")
+@MapperScan("com.example.dynamicroutingdatasource.mapper")
 public class MyBatisConfig {
 
     private final Environment env;
