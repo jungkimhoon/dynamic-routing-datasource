@@ -1,0 +1,56 @@
+
+spring:
+    db1:
+        datasource:
+            driver-class-name: org.postgresql.Driver
+            jdbc-url: jdbc:postgresql://127.0.0.1:11300/test_db1
+            username: test1
+            password: 1234
+    db2:
+        datasource:
+            driver-class-name: org.postgresql.Driver
+            jdbc-url: jdbc:postgresql://127.0.0.1:11300/test_db2
+            username: test2
+            password: 1234
+    db3:
+        datasource:
+            driver-class-name: org.postgresql.Driver
+            jdbc-url: jdbc:postgresql://127.0.0.1:11300/test_db3
+            username: test3
+            password: 1234
+    db4:
+        datasource:
+            driver-class-name: org.postgresql.Driver
+            jdbc-url: jdbc:postgresql://127.0.0.1:11300/test_db4
+            username: test4
+            password: 1234
+    db5:
+        datasource:
+            driver-class-name: org.postgresql.Driver
+            jdbc-url: jdbc:postgresql://127.0.0.1:11300/test_db5
+            username: test5
+            password: 1234
+    db6:
+        datasource:
+            driver-class-name: org.postgresql.Driver
+            jdbc-url: jdbc:postgresql://127.0.0.1:11300/test_db6
+            username: test6
+            password: 1234
+    db7:
+        datasource:
+            driver-class-name: org.postgresql.Driver
+            jdbc-url: jdbc:postgresql://127.0.0.1:11300/test_db7
+            username: test7
+            password: 1234
+    db8:
+        datasource:
+            driver-class-name: org.postgresql.Driver
+            jdbc-url: jdbc:postgresql://127.0.0.1:11300/test_db8
+            username: test8
+            password: 1234
+    output:
+        ansi:
+            enabled: always
+
+server:
+    port: 8080
