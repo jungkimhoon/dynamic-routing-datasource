@@ -76,6 +76,6 @@ public class RoutingDatabaseContextHolder {
 - RoutingDatabaseContextHolder에 각 db key값을 setting하여 routingDataSource를 사용할 수 있다.
 ``` console
 RoutingDatabaseContextHolder.set(String.format("db%s", dbSeq)); // set RoutingDatabaseContextHolder
-ret = arjsMapper.getMapDataApi(payload);                        // get Data by Selected DB
+ret = seedMapper.getMapDataApi(payload);                        // get Data by Selected DB
 RoutingDatabaseContextHolder.clear();                           // clear RoutingDababaseContextHolder
 ```
